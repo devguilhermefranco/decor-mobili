@@ -1,0 +1,170 @@
+/*
+
+Paleta Tailwind CSS gerada a partir de: 1CCB6D
+{
+  "emerald": {
+    "50": "#e9fcf2",
+    "100": "#d2f9e4",
+    "200": "#a5f3c9",
+    "300": "#78edaf",
+    "400": "#4be794",
+    "500": "#1fe079",
+    "600": "#18b461",
+    "700": "#128749",
+    "800": "#0c5a30",
+    "900": "#062d18",
+    "950": "#041f11"
+  }
+}
+
+*/
+
+/*
+
+Body
+
+*/
+
+body {
+    font-family: 'Afacad';
+    margin: 0;
+    padding: 0;
+}
+
+.linha-produtos{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw 0;
+}
+
+.parent {
+display: grid;
+grid-template-columns: 2fr 1.5fr 2fr repeat(2, 3fr);
+grid-template-rows: 2fr 1fr 3fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+margin: 0 10vw;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 2 / 2 / 3 / 3; }
+.div3 { grid-area: 3 / 3 / 4 / 4; }
+.div4 { grid-area: 1 / 4 / 2 / 5; }
+.div5 { grid-area: 5 / 5 / 6 / 6; }
+.div6 { grid-area: 5 / 3 / 6 / 4; }
+.div7 { grid-area: 3 / 5 / 4 / 6; }
+
+#produto div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #E9FCF2;
+    border: 2px solid #18B461;
+    border-radius: 10px;
+    font-family: 'Afacad';
+}
+
+.linha-rolagem{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    ;
+}
+
+.polaroid {
+    width: 18vw;
+}
+
+.polaroid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*
+
+Menu de navegação
+
+*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw 20vw;
+}
+
+h1 {
+    color: #18B461;
+    font-family: "Gravitas One", serif;
+}
+
+a {
+    text-decoration: none;
+    color: #128749;
+}
+
+a:hover {
+    color: #062D18;
+}
+
+/*
+
+Footer (rodapé)
+
+*/
+footer {
+    background-color: #E9FCF2;
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw 0;
+    text-align: center;
+}
+
+footer h3 {
+    color: #062D18;
+    font-family: 'Abel', serif;
+}
+.checked {
+  color: green;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.box-elogios{
+    margin: 0 10vw 5vh;
+    
+}
+
+.elogios{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2vw;
+}
+
+.elogio{
+    background-color: #18b46157;
+    border-radius: 20px;
+    padding: 2vw;
+}
+
+.nome{
+    display: block;
+    width: 100%;
+    text-align: end;
+}
+
+.box-contato{
+    color:#FFFFFF;
+    padding: 5vh 10vw;
+    background-color: #0c5a30;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="pt-BR">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decor Mobili</title>
+    <meta name="description" content="Decor Mobili - Sua loja de móveis e decoração">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Afacad:ital,wght@0,400..700;1,400..700&family=Gravitas+One&display=swap" rel="stylesheet">
+    <link href="css.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <?php include "menu.php"; ?>
+    <h1>Decor Mobili</h1>
+
+    <div class="parent">
+        <div class="div1" id="produto">
+            <img src="fotos-moveis/mesa-curitiba.webp" alt="">
+            <div>
+                <p>
+                    Mesa de Jantar Curitiba
+                </p>
+                <button>
+                    Comprar por R$ 1.299,00
+                </button>
+            </div>
+        </div>
+        <div class="div2" id="produto">
+            <img src="fotos-moveis/porta-herbario.png" alt="">
+            <div>
+                <p>
+                    Porta-Herbário
+                </p>
+                <button>
+                    Comprar por R$ 1.299,00
+                </button>
+            </div>
+        </div>
+        <div class="div3" id="produto">
+            <img src="fotos-moveis/armario-colonial.jpg" alt="">
+            <div>
+                <p>
+                    Armário Colonial
+                </p>
+                <button>
+                    Comprar por R$ 1.299,00
+                </button>
+            </div>
+        </div>
+        <div class="div4" id="produto">
+            <img src="fotos-moveis/luminaria-geo-luz.webp" alt="">
+            <div>
+                <p>
+                    Luminária Geo Luz
+                </p>
+                <button>
+                    Comprar por R$ 1.299,00
+                </button>
+            </div>
+        </div>
+        <div class="div7" id="produto">
+            <img src="fotos-moveis/banco-jacaranda.jpg" alt="">
+            <div>
+                <p>
+                    Banco Jacarandá
+                </p>
+                <button>
+                    Comprar por R$ 1.299,00
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="linha-rolagem">
+
+        <div class="polaroid">
+            <img src="fotos-moveis/banco-jacaranda.jpg" alt="Banco Jacarandá">
+            <div class="container">
+                <p>Comprar</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="fotos-moveis/armario-colonial.jpg" alt="Armário Colonial">
+            <div class="container">
+                <p>Comprar</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="fotos-moveis/porta-herbario.png" alt="Porta-Herbário">
+            <div class="container">
+                <p>Comprar</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="fotos-moveis/luminaria-geo-luz.webp" alt="Luminária Geo Luz">
+            <div class="container">
+                <p>Comprar</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="fotos-moveis/mesa-curitiba.webp" alt="Mesa de Jantar Curitiba">
+            <div class="container">
+                <p>Comprar</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="box-elogios">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="elogios">
+            <div class="elogio">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p>"A qualidade dos móveis é incrível! Estou muito satisfeito com minha compra."</p>
+                <span class="nome">- João S.</span>
+            </div>
+            <div class="elogio">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p>"A qualidade dos móveis é incrível! Estou muito satisfeito com minha compra."</p>
+                <span class="nome">- João S.</span>
+            </div>
+            <div class="elogio">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p>"A qualidade dos móveis é incrível! Estou muito satisfeito com minha compra."</p>
+                <span class="nome">- João S.</span>
+            </div>
+            <div class="elogio">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p>"A qualidade dos móveis é incrível! Estou muito satisfeito com minha compra."</p>
+                <span class="nome">- João S.</span>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <div class="box-contato">
+        <h2>Fale conosco</h2>
+        <p>Entre em contato para tirar suas dúvidas, fazer orçamentos e adquirir nossos móveis e serviços! Estamos prontos para te proporcionar a perfeição.</p>
+        <div class="elogios">
+            <div class="">
+                <p>Horário de funcionamento: <br> Segunda a Sexta, das 9h às 18h</p>
+                <p>Telefone: <br> (19) 97172-7301</p>
+                <p>Email: <br> contato@decormobili.com</p>
+                <p>Endereço: <br> R. Vadih Jorge Maluf, 470, Sumaré (SP) - (CEP: 13170-120)</p>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+        <?php include "footer.php"; ?>
+</body>
+
+</html>
