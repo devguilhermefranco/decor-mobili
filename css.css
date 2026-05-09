@@ -165,6 +165,23 @@ footer h3 {
 
 .box-contato{
     color:#FFFFFF;
-    padding: 5vh 10vw;
+    padding: 2vh 10vw;
     background-color: #0c5a30;
+}
+
+.box-contato span {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.box-contato h2{
+    font-size: 3em;
+    margin: 0;
+}
+
+.p1{
+    font-size: 1.25em;
+}
+.contatos p{
+    font-size: 1.125em;
 }
