@@ -17,6 +17,12 @@ Paleta Tailwind CSS gerada a partir de: 1CCB6D
   }
 }
 
+PALETA DO DENIS:
+verde mais escuro: #1b4b00
+verde escuro: #276c00
+verde claro: #3a9e00
+verde mais claro: #49c700
+
 */
 
 /*
@@ -29,6 +35,7 @@ body {
     font-family: 'Afacad';
     margin: 0;
     padding: 0;
+    background-color: #f5f2e6;
 }
 
 .linha-produtos{
@@ -96,9 +103,29 @@ Menu de navegação
 */
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    padding: 1vw 20vw;
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+    align-items: center;
+}
+
+nav img, nav a {
+    font-size: 1.75em;
+    font-weight: 700;
+    font-family: 'Tinos';
+}
+
+nav img{
+    margin: 2vh 0 2vh 2vw;
+}
+
+nav a{
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+nav a:hover{
+    background-color: #ece9da;
 }
 
 h1 {
@@ -108,11 +135,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #128749;
-}
-
-a:hover {
-    color: #062D18;
+    color: #1b4b00;
 }
 
 /*
@@ -121,7 +144,6 @@ Footer (rodapé)
 
 */
 footer {
-    background-color: #E9FCF2;
     display: flex;
     justify-content: space-around;
     padding: 2vw 0;
@@ -130,10 +152,10 @@ footer {
 
 footer h3 {
     color: #062D18;
-    font-family: 'Abel', serif;
+    font-family: 'Tinos', serif;
 }
 .checked {
-  color: green;
+  color: #1b4b00;
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
@@ -152,7 +174,7 @@ footer h3 {
 }
 
 .elogio{
-    background-color: #18b46157;
+    background-color: #49c70080;
     border-radius: 20px;
     padding: 2vw;
 }
@@ -166,17 +188,23 @@ footer h3 {
 .box-contato{
     color:#FFFFFF;
     padding: 2vh 10vw;
-    background-color: #0c5a30;
+    background-color: #1b4b00;
 }
 
 .box-contato span {
     font-weight: bold;
     font-size: 2em;
+    font-family: 'Tinos';
 }
 
 .box-contato h2{
     font-size: 3em;
+    font-family: 'Tinos';
     margin: 0;
+}
+
+h2{
+    font-family: 'Tinos';
 }
 
 .p1{
@@ -184,4 +212,16 @@ footer h3 {
 }
 .contatos p{
     font-size: 1.125em;
+}
+
+header img{
+    width: 5vw;
+    height: auto;
+}
+
+.box-inicial{
+    background-color: #3a9e00;
+    padding: 2vw 10vw;
+    margin: 0 0 5vh 0;
+    color:#E9FCF2;
 }
